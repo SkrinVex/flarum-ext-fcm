@@ -1,7 +1,5 @@
 # FCM Push Notifications for Flarum
 
-> **⚠️ Archived — no further updates will be made to this extension. Feel free to fork and maintain your own version.**
-
 A Flarum extension that sends Firebase Cloud Messaging (FCM) push notifications to native Android/iOS apps. Uses the **FCM HTTP v1 API** (service account authentication) — the legacy server key API is not supported.
 
 [![Flarum](https://img.shields.io/badge/Flarum-%5E1.8-purple)](https://flarum.org)
