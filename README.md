@@ -325,20 +325,6 @@ Remove a device token (call on logout).
 
 ---
 
-## Publishing to Packagist
-
-If you fork this and want to publish your own version:
-
-1. Update `composer.json` — change `name` to `your-vendor/flarum-ext-fcm`
-2. Push to a public GitHub repository
-3. Go to [packagist.org](https://packagist.org) → **Submit** → paste your repo URL
-4. Set up the [GitHub webhook](https://packagist.org/about#how-to-update-packages) for auto-updates
-5. Users can then install via: `composer require your-vendor/flarum-ext-fcm`
-
-**Recommended license:** **MIT** — it's the standard for Flarum extensions, allows anyone to use, fork, and modify freely without restrictions. Add a `LICENSE` file with the MIT text and your name.
-
----
-
 ## License
 
 [MIT](LICENSE) — © SkrinVex
