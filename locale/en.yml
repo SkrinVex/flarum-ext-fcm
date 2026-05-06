@@ -1,0 +1,5 @@
+komari-fcm:
+  admin:
+    settings:
+      service_account_path_label: "Service Account JSON Path"
+      service_account_path_help: "Absolute path to the Firebase service account JSON file. E.g.: /var/www/forum.skrinvex.su/storage/fcm-service-account.json"

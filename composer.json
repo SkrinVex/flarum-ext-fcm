@@ -1,0 +1,25 @@
+{
+    "name": "komari/flarum-ext-fcm",
+    "description": "Firebase Cloud Messaging push notifications for native mobile apps",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.8",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Komari\\Fcm\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "FCM Push Notifications",
+            "icon": {
+                "name": "fas fa-bell",
+                "backgroundColor": "#FF6F00",
+                "color": "#fff"
+            }
+        }
+    }
+}
